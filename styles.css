@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5EADC;
+    background-image: url('https://plus.unsplash.com/premium_photo-1661963037608-26bdb13b2032?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.letter {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    animation: pulse 1s infinite;
+}
+
+.letter svg {
+    width: 100%;
+    height: 100%;
+}
+
+.paper {
+    position: absolute;
+    width: 60%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #F06;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.paper p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.paper p:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.accept-button {
+    background-color: #4CAF50;
+    /* Cor de fundo verde */
+    color: white;
+    /* Cor do texto branco */
+    padding: 10px 20px;
+    /* Espaçamento interno do botão */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    border: none;
+    /* Remova a borda */
+    border-radius: 5px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Ícone de cursor de ponteiro ao pairar */
+    transition: background-color 0.3s;
+    /* Transição suave de cor de fundo */
+
+    /* Adicione estilos adicionais conforme necessário */
+}
+
+.accept-button:hover {
+    background-color: #45a049;
+    /* Cor de fundo verde mais escura ao pairar */
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
