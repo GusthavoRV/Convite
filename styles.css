@@ -76,7 +76,7 @@ body {
 .spotify-widget {
     position: fixed;
     cursor: pointer;
-    left: 130px;
+    left: 120px;
     opacity: 0.8;
     width: 10px;
     height: 10%;
