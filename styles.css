@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F5EADC;
-    background-image: url('https://plus.unsplash.com/premium_photo-1661963037608-26bdb13b2032?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('./we2.jpeg');
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
@@ -71,6 +71,16 @@ body {
     /* Transição suave de cor de fundo */
 
     /* Adicione estilos adicionais conforme necessário */
+}
+
+.spotify-widget {
+    position: fixed;
+    cursor: pointer;
+    left: 130px;
+    opacity: 0.8;
+    width: 10px;
+    height: 10%;
+    /* Ajuste a opacidade conforme necessário */
 }
 
 .accept-button:hover {
